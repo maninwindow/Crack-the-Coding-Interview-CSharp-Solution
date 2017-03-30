@@ -1,9 +1,15 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2012
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterviewPrep", "InterviewPrep\InterviewPrep.csproj", "{698DBB7D-CD16-4A01-BBC3-20167D7A714B}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test", "Test\Test.csproj", "{61FAF64B-22CF-4A48-A6F5-178E4E022F2A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CrackTheInterviewQuestions_UnitTest", "CrackTheInterviewQuestions\CrackTheInterviewQuestions_UnitTest.csproj", "{072AD5D4-4761-4046-BCB8-28550E0208CD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CrackTheInterviewQuestions", "CrackTheInterviewQuestions_UnitTest\CrackTheInterviewQuestions.csproj", "{12E65282-283A-4548-9F75-69B17EB734CA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -19,6 +25,14 @@ Global
 		{61FAF64B-22CF-4A48-A6F5-178E4E022F2A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{61FAF64B-22CF-4A48-A6F5-178E4E022F2A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{61FAF64B-22CF-4A48-A6F5-178E4E022F2A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{072AD5D4-4761-4046-BCB8-28550E0208CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{072AD5D4-4761-4046-BCB8-28550E0208CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{072AD5D4-4761-4046-BCB8-28550E0208CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{072AD5D4-4761-4046-BCB8-28550E0208CD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{12E65282-283A-4548-9F75-69B17EB734CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12E65282-283A-4548-9F75-69B17EB734CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12E65282-283A-4548-9F75-69B17EB734CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12E65282-283A-4548-9F75-69B17EB734CA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

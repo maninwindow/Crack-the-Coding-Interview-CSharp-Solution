@@ -50,8 +50,14 @@
     </Otherwise>
   </Choose>
   <ItemGroup>
-    <Compile Include="UnitTest1.cs" />
+    <Compile Include="Array\HasUniqueValue_UnitTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CrackTheInterviewQuestions_UnitTest\CrackTheInterviewQuestions.csproj">
+      <Project>{12e65282-283a-4548-9f75-69b17eb734ca}</Project>
+      <Name>CrackTheInterviewQuestions</Name>
+    </ProjectReference>
   </ItemGroup>
   <Choose>
     <When Condition="'$(VisualStudioVersion)' == '10.0' And '$(IsCodedUITest)' == 'True'">
